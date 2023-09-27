@@ -2,19 +2,27 @@
   "name": "tailwind",
   "version": "1.0.0",
   "description": "",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoadToJunior/tailwind_css.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "browser-sync": "^2.29.3",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.1",
-    "postcss": "^8.4.30",
+    "autoprefixer": "10.4.16",
+    "parcel": "^2.9.3",
+    "tailwindcss": "3.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/RoadToJunior/tailwind_css/issues"
+  },
+  "homepage": "https://github.com/RoadToJunior/tailwind_css#readme",
+  "dependencies": {
     "tailwindcss": "^3.3.3"
   }
 }
